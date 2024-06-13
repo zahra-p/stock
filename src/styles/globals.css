@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+button {
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
